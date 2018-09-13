@@ -230,6 +230,7 @@
 <!-- slider-area start -->
 {{--轮播图占位--}}
 @yield("slider")
+@yield("main")
 
 <!-- slider-area end -->
 <!-- our-story-area start -->

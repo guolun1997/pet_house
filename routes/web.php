@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/home',function (){
     return view('home/index');
 });
+Route::get('/login',function (){
+    return view('home/user');
+});
